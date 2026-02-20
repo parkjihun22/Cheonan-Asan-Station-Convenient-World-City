@@ -28,19 +28,19 @@ const items = [
       </li>
       <li>
         <strong>대지위치</strong>
-        <span>충청남도 아산시 배방읍 장재리 176-5번지 외</span>
+        <span>충청남도 아산시 배방읍 장재리 일원</span>
       </li>
       <li>
         <strong>건축규모</strong>
-        <span>지하 6층 ~ 지상 29층, 3개동</span>
+        <span>지하 6층 ~ 지상 29층, 총 3개동</span>
       </li>
       <li>
         <strong>주택형</strong>
-        <span>84㎡ 중심 (오피스텔)</span>
+        <span>84㎡ 중심 주거형 설계</span>
       </li>
       <li>
-        <strong>실수</strong>
-        <span>총 1,329실</span>
+        <strong>규모</strong>
+        <span>총 396실</span>
       </li>
     </ul>
     ),
@@ -74,7 +74,7 @@ const items = [
         <div className={styles.premiumIntro}>
           <h3 className={styles.premiumTitle}>GREAT PREMIUM</h3>
           <p className={styles.premiumSubtitle}>
-            청주 생활중심과 학세권을 누리는<br />
+            천안아산 생활중심과 학세권을 누리는<br />
             천안아산역이편한세상시티 프리미엄 라이프
           </p>
         </div>
@@ -89,42 +89,41 @@ function PremiumSlider() {
   const slides = [
     {
       img: slide1,
-      title: "트리플 역세권 교통 중심",
+      title: "광역 교통 중심 입지",
       desc:
-        "KTX·SRT 천안아산역 도보 이용<br/>지하철 1호선 아산역·BRT 정류장 인접<br/>광역 접근성과 도심 교통의 최중심 입지",
+        "KTX·SRT 천안아산역 이용 가능한 교통 환경<br/>수도권 및 전국 주요 도시로 빠른 이동성<br/>광역 교통망을 누리는 핵심 입지 프리미엄",
     },
     {
       img: slide2,
-      title: "원스톱 생활 인프라",
+      title: "편리한 생활 인프라",
       desc:
-        "모다아울렛과 브릿지로 직접 연결(예정)<br/>갤러리아백화점·트레이더스 등 대형 쇼핑시설 밀집<br/>천안아산 도심의 풍부한 생활환경",
+        "대형 쇼핑시설과 생활편의시설 인접<br/>문화·외식·여가를 함께 누리는 도심 생활권<br/>일상 만족도를 높이는 원스톱 라이프",
     },
     {
       img: slide3,
-      title: "랜드마크 복합단지",
+      title: "도심 중심 주거 가치",
       desc:
-        "지하 6층~지상 29층, 총 1,329실 오피스텔<br/>상업시설 결합 스트리트형 복합 설계<br/>도심 프리미엄을 담은 하이엔드 타워",
+        "천안아산역 생활권의 미래가치 기대 입지<br/>업무·상업·주거가 어우러지는 복합 생활환경<br/>도심 프리미엄을 누리는 핵심 주거 공간",
     },
     {
       img: slide4,
-      title: "자연과 함께하는 주거",
+      title: "쾌적한 주거 환경",
       desc:
-        "운천천 수변공원과 생활녹지 인접<br/>쾌적한 일상을 누리는 친환경 입지<br/>자연과 도시의 균형 있는 조화",
+        "도심 속 여유를 누릴 수 있는 생활 녹지 인접<br/>쾌적한 주거환경과 편리한 도시 인프라 공존<br/>일상 속 힐링이 가능한 주거 입지",
     },
     {
       img: slide5,
-      title: "다양한 특화 평면",
+      title: "실용적인 평면 설계",
       desc:
-        "84㎡ 중심, 효율적 동선과 수납 특화 설계<br/>라이프스타일에 맞춘 공간 구성<br/>실용성과 품격을 갖춘 주거공간",
+        "라이프스타일을 고려한 효율적인 공간 구성<br/>수납과 동선을 강화한 실용 중심 설계<br/>일상 만족도를 높이는 주거 공간 완성",
     },
     {
       img: slide6,
-      title: "DL이앤씨 프리미엄 브랜드",
+      title: "e편한세상 브랜드 프리미엄",
       desc:
-        "이편한세상 브랜드의 고품격 설계 철학<br/>입주민을 위한 커뮤니티와 스마트 시스템<br/>브랜드가치를 담은 하이엔드 주거복합단지",
+        "DL이앤씨 e편한세상이 제안하는 주거 철학<br/>입주민 중심의 커뮤니티와 스마트 주거 시스템<br/>브랜드 가치가 더해진 프리미엄 라이프",
     },
   ];
-
 
   
 
@@ -194,7 +193,7 @@ export default function MobileOverviewSection() {
     <section className={styles.overviewSection}>
       {/* ─── 헤더 영역 ─── */}
       <header className={styles.overviewHeader}>
-        <div className={styles.preTitle}>HILLSTATE BUSINESS</div>
+        <div className={styles.preTitle}>BUSINESS</div>
         <div className={styles.line} />
         <h2 className={styles.mainTitle}>사업안내</h2>
       </header>

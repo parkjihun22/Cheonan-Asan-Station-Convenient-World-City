@@ -51,36 +51,36 @@ const section3Contents = [
   {
     imgSrc: section3_Image1,
     title: "PREMIUM 01",
-    text1: `하이엔드 브랜드 대단지`,
-    text2: `총 1,618세대 규모의 프리미엄 라이프<br/>
-            지하 2층~지상 31층, 18개동 대단지 구성`,
+    text1: `e편한세상 브랜드 프리미엄`,
+    text2: `총 396실 규모의 주거 공간<br/>
+            브랜드 가치와 완성도 높은 주거 설계`,
     link: "/BusinessGuide/intro",
     linkText: "더 알아보기 >",
   },
   {
     imgSrc: section3_Image2,
     title: "PREMIUM 02",
-    text1: `사통팔달 광역 교통망`,
-    text2: `청주 1순환로·직지대로 등 핵심 도로망 인접<br/>
-            중부·경부고속도로 진입 용이한 교통 환경`,
+    text1: `천안아산역 생활권 교통 접근성`,
+    text2: `KTX·SRT 천안아산역 이용 가능한 위치<br/>
+            광역 이동이 편리한 교통 중심 입지`,
     link: "/LocationEnvironment/intro",
     linkText: "더 알아보기 >",
   },
   {
     imgSrc: section3_Image3,
     title: "PREMIUM 03",
-    text1: `의료·생활 인프라 밀집`,
-    text2: `홈플러스·전통시장 등 중심 상권 인접<br/>
-            청주의료원 등 다양한 의료시설 가까이`,
+    text1: `풍부한 생활 인프라`,
+    text2: `쇼핑·문화·생활 편의시설 인접<br/>
+            일상 만족도를 높이는 생활 중심 환경`,
     link: "/LocationEnvironment/intro",
     linkText: "더 알아보기 >",
   },
   {
     imgSrc: section3_Image4,
     title: "PREMIUM 04",
-    text1: `쾌적한 도심 속 녹지`,
-    text2: `운천근린공원(예정) 인접한 자연환경<br/>
-            산책과 힐링이 공존하는 프리미엄 일상`,
+    text1: `쾌적한 주거 환경`,
+    text2: `도심 속 여유를 누릴 수 있는 생활 환경<br/>
+            편리함과 휴식이 공존하는 주거 가치`,
     link: "/LocationEnvironment/primium",
     linkText: "더 알아보기 >",
   },
@@ -293,10 +293,10 @@ const Main = () => {
                   천안아산역이편한세상시티 POINT
                 </div>
                 <div className={styles.text3}>
-                  - 천안아산역 도보권 입지, KTX·SRT·1호선 환승 가능<br />
-                  - 갤러리아백화점·이마트 등 생활 인프라 인접<br />
-                  - 천안종합운동장·불당지구 인근 쾌적한 주거환경<br />
-                  - 총 1,329세대 규모, 이편한세상 특화설계 및 커뮤니티 구성
+                  - 천안아산역 생활권 입지, 광역 교통 이용 편리<br />
+                  - 쇼핑·문화·생활 편의시설 등 풍부한 생활 인프라 인접<br />
+                  - 도심 생활과 여유를 함께 누리는 주거 환경<br />
+                  - 총 396실 규모, e편한세상 브랜드 특화 설계 및 커뮤니티 구성
                 </div>
                 <div className={styles.text4}>
                   <a
@@ -607,10 +607,10 @@ const Main = () => {
             천안아산역이편한세상시티 POINT
           </div>
           <div className={styles.text3}>
-                  - 천안아산역 도보권 입지, KTX·SRT·1호선 환승 가능<br />
-                  - 갤러리아백화점·이마트 등 생활 인프라 인접<br />
-                  - 천안종합운동장·불당지구 인근 쾌적한 주거환경<br />
-                  - 총 1,329세대 규모, 이편한세상 특화설계 및 커뮤니티 구성
+                  - 천안아산역 생활권 입지, 광역 교통 이용 편리<br />
+                  - 쇼핑·문화·생활 편의시설 등 풍부한 생활 인프라 인접<br />
+                  - 도심 생활과 여유를 함께 누리는 주거 환경<br />
+                  - 총 396실 규모, e편한세상 브랜드 특화 설계 및 커뮤니티 구성
                 </div>
 
             <div className={styles.text4}>
@@ -646,7 +646,7 @@ const Main = () => {
           <div className={styles.container7}>
             <div className={styles.textBox}>
               <div className={styles.title}>
-                도안의 중심으로 사는
+                천안의 중심으로 사는
                 <br />
                 <span>최고의 브랜드 아파트</span>
               </div>
@@ -728,7 +728,7 @@ const Main = () => {
               </Link>
             </div>
           </div> */}
-          <MobileNewsSection newsList={newsLists} />
+          {/* <MobileNewsSection newsList={newsLists} /> */}
 
             {/* 모바일 방문예약 섹션 */}
             <div className={styles.mobileVisitContainer}>

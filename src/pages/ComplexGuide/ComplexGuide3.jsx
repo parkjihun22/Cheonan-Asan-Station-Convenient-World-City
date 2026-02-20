@@ -54,7 +54,7 @@ const ComplexGuide3 = () => {
   <title>천안아산역이편한세상시티 - 커뮤니티</title>
   <meta
     name="description"
-    content="천안아산역이편한세상시티의 커뮤니티 시설을 한눈에 확인하세요. 피트니스센터, 실내 골프연습장, 작은도서관(북카페), 주민 라운지 등 입주민을 위한 다양한 생활 편의공간을 소개합니다."
+    content="천안아산역이편한세상시티의 커뮤니티 시설을 확인하세요. 피트니스센터, 실내 골프연습장, 작은도서관(북카페), 주민 라운지 등 입주민을 위한 생활 편의공간을 안내합니다."
   />
   <link rel="canonical" href="https://www.layershop.kr/ComplexGuide/community" />
   <meta name="robots" content="index,follow" />
@@ -65,7 +65,7 @@ const ComplexGuide3 = () => {
   <meta property="og:title" content="천안아산역이편한세상시티 - 커뮤니티" />
   <meta
     property="og:description"
-    content="피트니스센터, 실내 골프연습장, 작은도서관, 북카페, 주민라운지 등 다양한 커뮤니티 공간을 갖춘 천안아산역이편한세상시티. 입주민의 품격 있는 라이프스타일을 지원합니다."
+    content="천안아산역이편한세상시티 커뮤니티 안내. 피트니스센터, 실내 골프연습장, 작은도서관(북카페), 주민 라운지 등 주요 커뮤니티 시설을 확인하세요."
   />
   <meta property="og:url" content="https://www.layershop.kr/ComplexGuide/community" />
   <meta property="og:image" content="https://www.layershop.kr/img/og/complex.jpg" />
@@ -73,10 +73,10 @@ const ComplexGuide3 = () => {
 
   {/* Twitter */}
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="천안아산역이편한세상시티 - 커뮤니티 시설" />
+  <meta name="twitter:title" content="천안아산역이편한세상시티 - 커뮤니티" />
   <meta
     name="twitter:description"
-    content="천안아산역이편한세상시티의 커뮤니티: 피트니스, 골프연습장, 작은도서관 등 다양한 생활편의 공간 제공."
+    content="천안아산역이편한세상시티 커뮤니티 시설을 확인하세요. 피트니스, 골프연습장, 작은도서관(북카페), 주민 라운지 등 생활 편의공간 안내."
   />
   <meta name="twitter:image" content="https://www.layershop.kr/img/og/complex.jpg" />
 </Helmet>
@@ -91,14 +91,14 @@ const ComplexGuide3 = () => {
   천안아산역이편한세상시티 - 커뮤니티
 </h1>
 <p className={styles.screenReaderOnly}>
-  천안아산역이편한세상시티는 입주민의 삶의 질을 높이는 다양한 커뮤니티 시설을 갖추고 있습니다.
-  피트니스센터, 실내 골프연습장, 작은도서관(북카페), 주민 라운지 등 일상 속 여유와 편의를 더해주는
-  품격 있는 생활 공간을 만나보세요.
+  이 페이지는 천안아산역이편한세상시티의 커뮤니티 시설 정보를 제공합니다.
+  피트니스센터, 실내 골프연습장, 작은도서관(북카페), 주민 라운지 등
+  일상 편의와 여가를 고려한 주요 커뮤니티 공간을 확인하실 수 있습니다.
 </p>
 
 <div className={styles.textBox}>
-  <div>천안아산역의 새로운 프리미엄 라이프</div>
-  <div>이편한세상시티의 커뮤니티로 일상이 달라집니다</div>
+  <div>일상에 여유를 더하는 커뮤니티</div>
+  <div>주요 시설 구성을 확인하세요</div>
 </div>
 
 
@@ -107,7 +107,7 @@ const ComplexGuide3 = () => {
       <img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="천안아산역이편한세상시티커뮤니티 안내 -image1"
+				alt="천안아산역이편한세상시티 커뮤니티 안내 이미지"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/>
 

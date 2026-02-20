@@ -15,8 +15,8 @@ import Ready from "../../components/Ready/Ready";
 const BusinessGuide2 = () => {
 	const menuContents = [
 		{ title: "사업안내", url: "/BusinessGuide/intro" },
-    	{ title: "분양일정", url: "/BusinessGuide/plan" },
-    	// { title: "계약서류안내", url: "/BusinessGuide/documents" },
+		// { title: "분양일정", url: "/BusinessGuide/plan" },
+		// { title: "공급안내", url: "/BusinessGuide/documents" }
 	];
 	const [isScroll, setIsScroll] = useState(false);
 	const [selectedOption, setSelectedOption] = useState(1); // 선택된 옵션 (1~6)
@@ -67,7 +67,7 @@ const BusinessGuide2 = () => {
 		<title>천안아산역이편한세상시티 - 계약서류안내</title>
 		<meta
 			name="description"
-			content="천안아산역이편한세상시티 분양 계약을 위한 필수 서류와 준비 절차를 확인하세요. 신분증, 주민등록등본, 인감증명서 등 계약 체결에 필요한 구비서류 및 유의사항 정리."
+			content="천안아산역이편한세상시티 계약 체결을 위한 필수 서류와 준비 절차를 확인하세요. 신분증, 주민등록등본, 인감증명서 등 계약 시 필요한 서류 및 유의사항을 안내합니다."
 		/>
 		<meta name="robots" content="index,follow" />
 		<link
@@ -81,7 +81,7 @@ const BusinessGuide2 = () => {
 		<meta property="og:title" content="천안아산역이편한세상시티 - 계약서류안내" />
 		<meta
 			property="og:description"
-			content="천안아산역이편한세상시티 계약서류 안내: 분양 계약 시 필요한 서류 목록과 제출 절차, 유의사항을 빠르게 확인해 정확한 계약을 준비하세요."
+			content="천안아산역이편한세상시티 계약서류 안내. 계약 시 필요한 서류 목록과 준비 방법, 유의사항을 확인해 원활한 계약을 준비하세요."
 		/>
 		<meta property="og:url" content="https://www.layershop.kr/BusinessGuide/documents" />
 		<meta property="og:image" content="https://www.layershop.kr/Main1.png" />
@@ -92,7 +92,7 @@ const BusinessGuide2 = () => {
 		<meta name="twitter:title" content="천안아산역이편한세상시티 - 계약서류안내" />
 		<meta
 			name="twitter:description"
-			content="천안아산역이편한세상시티 계약에 필요한 신분증, 등본, 인감증명서 등 서류와 준비절차를 한눈에 확인하세요."
+			content="천안아산역이편한세상시티 계약에 필요한 주요 서류와 준비 절차를 한눈에 확인하세요."
 		/>
 		<meta name="twitter:image" content="https://www.layershop.kr/Main1.png" />
 		</Helmet>
@@ -108,15 +108,15 @@ const BusinessGuide2 = () => {
 		</h1>
 
 		<p className={styles.screenReaderOnly}>
-		본 페이지는 천안아산역이편한세상시티 분양(청약) 당첨자 대상의
-		계약 체결 절차에 필요한 서류 정보를 제공합니다.
+		본 페이지는 천안아산역이편한세상시티 당첨자를 위한
+		계약 체결 절차 및 필수 서류 정보를 제공합니다.
 		신분증, 주민등록등본, 인감증명서 등 제출 서류 목록과 준비 방법,
-		제출 기한 및 유의사항을 사전에 확인해 정확한 계약을 진행하세요.
+		유의사항을 사전에 확인해 원활한 계약을 진행하세요.
 		</p>
 
 		<div className={styles.textBox}>
-		<div>천안아산역 초역세권 프리미엄 단지</div>
-		<div>계약서류, 지금부터 미리 준비하세요</div>
+		<div>천안아산역 생활권, 새로운 주거의 시작</div>
+		<div>계약서류를 미리 확인하고 준비하세요</div>
 		</div>
 
 

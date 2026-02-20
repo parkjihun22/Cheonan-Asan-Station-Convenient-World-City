@@ -14,8 +14,8 @@ import page1 from "../../assets/BusinessGuide/BusinessGuide2/page1.jpg";
 const BusinessGuide2 = () => {
     const menuContents = [
       { title: "사업안내", url: "/BusinessGuide/intro" },
-      { title: "분양일정", url: "/BusinessGuide/plan" },
-      // { title: "계약서류안내", url: "/BusinessGuide/documents" },
+      // { title: "분양일정", url: "/BusinessGuide/plan" },
+      // { title: "공급안내", url: "/BusinessGuide/documents" }
     ];
 
     const [isScroll, setIsScroll] = useState(false);
@@ -50,34 +50,36 @@ const BusinessGuide2 = () => {
 
     return (
         <div className={styles.container}>
-    <Helmet>
-      <title>천안아산역이편한세상시티 - 분양일정</title>
-      <meta
-        name="description"
-        content="천안아산역이편한세상시티 분양(청약) 일정을 한눈에 확인하세요. 특별공급, 1·2순위 청약 접수부터 당첨자 발표, 정당계약까지 핵심 일정을 안내합니다."
-      />
-      <link rel="canonical" href="https://www.layershop.kr/BusinessGuide/plan" />
-      <meta name="robots" content="index,follow" />
-    </Helmet>
+        <Helmet>
+          <title>천안아산역이편한세상시티 - 분양일정</title>
+          <meta
+            name="description"
+            content="천안아산역이편한세상시티 분양 일정을 한눈에 확인하세요. 청약 접수부터 당첨자 발표, 정당계약까지 주요 일정을 단계별로 안내합니다."
+          />
+          <link rel="canonical" href="https://www.layershop.kr/BusinessGuide/plan" />
+          <meta name="robots" content="index,follow" />
+        </Helmet>
 
-    <Header isChanged={isScroll} />
-    <FixIcon />
+        <Header isChanged={isScroll} />
+        <FixIcon />
 
-    <Bener title="분양일정" />
-    <MenuBar contents={menuContents} />
+        <Bener title="분양일정" />
+        <MenuBar contents={menuContents} />
 
-    <h1 className={styles.screenReaderOnly}>
-      천안아산역이편한세상시티 - 분양일정
-    </h1>
-    <p className={styles.screenReaderOnly}>
-      천안아산역이편한세상시티의 분양(청약) 일정을 한곳에서 확인하세요.
-      특별공급, 1·2순위 청약 접수부터 당첨자 발표, 정당계약까지 단계별 일정을 안내합니다.
-    </p>
+        <h1 className={styles.screenReaderOnly}>
+          천안아산역이편한세상시티 - 분양일정
+        </h1>
 
-    <div className={styles.textBox}>
-      <div>천안아산역 초역세권 프리미엄 오피스텔</div>
-      <div>이편한세상시티의 분양일정을 지금 확인하세요</div>
-    </div>
+        <p className={styles.screenReaderOnly}>
+          천안아산역이편한세상시티의 분양 일정을 안내합니다.
+          청약 접수, 당첨자 발표, 정당계약 등 단계별 주요 일정을
+          한눈에 확인하실 수 있습니다.
+        </p>
+
+        <div className={styles.textBox}>
+          <div>천안아산역 생활권, 새로운 주거의 시작</div>
+          <div>천안아산역이편한세상시티 분양일정을 확인하세요</div>
+        </div>
 
     {/* ✅ 이미지 노출 시 사용 */}
     <img

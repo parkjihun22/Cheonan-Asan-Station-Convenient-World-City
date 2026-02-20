@@ -18,10 +18,10 @@ const Emodel = () => {
   ];
 
   const vrUrls = {
-    "59A": "https://xn--9i1bjk9yu0i1yj45dd2aj6f5vocwcq6c89qkimfzhbjb.com/vr/tour1.html",
-    "59B": "https://xn--9i1bjk9yu0i1yj45dd2aj6f5vocwcq6c89qkimfzhbjb.com/vr2/59b/index.html",
-    "84A": "https://xn--9i1bjk9yu0i1yj45dd2aj6f5vocwcq6c89qkimfzhbjb.com/vr/tour3.html",
-    "114": "https://xn--9i1bjk9yu0i1yj45dd2aj6f5vocwcq6c89qkimfzhbjb.com/vr2/114/index.html",
+    "84A": "",
+    "84C": "",
+    // "84A": "https://xn--9i1bjk9yu0i1yj45dd2aj6f5vocwcq6c89qkimfzhbjb.com/vr/tour3.html",
+    // "114": "https://xn--9i1bjk9yu0i1yj45dd2aj6f5vocwcq6c89qkimfzhbjb.com/vr2/114/index.html",
   };
 
 

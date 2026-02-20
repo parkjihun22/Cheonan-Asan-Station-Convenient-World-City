@@ -62,7 +62,7 @@ const Interior2 = () => {
 
       <MenuBar contents={menuContents} />
 			<div className={styles.textBox}>
-      <div>청주 도심의 새로운 하이엔드 기준</div>
+      <div>천안아산 도심의 새로운 하이엔드 기준</div>
       <div>천안아산역이편한세상시티가 자부심으로 완성됩니다.</div>
       </div>
 

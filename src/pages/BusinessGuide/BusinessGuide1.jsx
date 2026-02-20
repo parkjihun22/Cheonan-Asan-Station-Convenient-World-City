@@ -30,7 +30,7 @@ const projectData = [
 const BusinessGuide1 = () => {
 	const menuContents = [
 		{ title: "사업안내", url: "/BusinessGuide/intro" },
-		{ title: "분양일정", url: "/BusinessGuide/plan" },
+		// { title: "분양일정", url: "/BusinessGuide/plan" },
 		// { title: "공급안내", url: "/BusinessGuide/documents" }
 	];
 	const [isScroll, setIsScroll] = useState(false);
@@ -60,87 +60,87 @@ const BusinessGuide1 = () => {
 	return (
 		<div className={styles.container}>
 
-      <Helmet>
-        {/* 페이지별 메타: title/description/og/canonical 만 관리 */}
-        <title>천안아산역이편한세상시티 - 사업안내</title>
-        <meta
-          name="description"
-          content="충청남도 아산시 배방읍 장재리 176-5번지 외에 들어서는 천안아산역이편한세상시티의 사업 개요를 확인하세요. 총 1,329실(지하 6층~지상 29층, 3개동), 전용 84㎡ 중심 오피스텔, 교통·생활 인프라 및 프리미엄 설계 정보 제공."
-        />
-        <meta name="robots" content="index,follow" />
-        <link rel="canonical" href="https://www.layershop.kr/BusinessGuide/intro" />
+    <Helmet>
+      {/* 페이지별 메타: title/description/og/canonical 만 관리 */}
+      <title>천안아산역이편한세상시티 - 사업안내</title>
+      <meta
+        name="description"
+        content="충청남도 아산시 배방읍 장재리 일원에 조성되는 천안아산역이편한세상시티의 사업 개요를 확인하세요. 총 396실(지하 6층~지상 29층, 3개동), 전용 84㎡ 중심 구성, 교통·생활 인프라 및 특화 설계 정보를 제공합니다."
+      />
+      <meta name="robots" content="index,follow" />
+      <link rel="canonical" href="https://www.layershop.kr/BusinessGuide/intro" />
 
-        {/* Open Graph */}
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="천안아산역이편한세상시티" />
-        <meta property="og:title" content="천안아산역이편한세상시티 - 사업안내" />
-        <meta
-          property="og:description"
-          content="천안아산역 초역세권 입지, 총 1,329실 규모의 프리미엄 복합 오피스텔. 위치, 규모, 타입 구성 등 주요 사업 정보를 한눈에 확인하세요."
-        />
-        <meta property="og:url" content="https://www.layershop.kr/BusinessGuide/intro" />
-        <meta property="og:image" content="https://www.layershop.kr/img/og/business.jpg" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
+      {/* Open Graph */}
+      <meta property="og:type" content="website" />
+      <meta property="og:site_name" content="천안아산역이편한세상시티" />
+      <meta property="og:title" content="천안아산역이편한세상시티 - 사업안내" />
+      <meta
+        property="og:description"
+        content="천안아산역 생활권 프리미엄 주거 가치. 총 396실 규모, 위치·규모·타입 구성 등 주요 사업 정보를 한눈에 확인하세요."
+      />
+      <meta property="og:url" content="https://www.layershop.kr/BusinessGuide/intro" />
+      <meta property="og:image" content="https://www.layershop.kr/img/og/business.jpg" />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
 
-        {/* Twitter */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="천안아산역이편한세상시티 - 사업안내" />
-        <meta
-          name="twitter:description"
-          content="천안아산역이편한세상시티 사업 개요: 총 1,329실 오피스텔, 전용 84㎡ 중심 평면 구성, 초역세권 입지와 프리미엄 설계 안내."
-        />
-        <meta name="twitter:image" content="https://www.layershop.kr/img/og/business.jpg" />
-        <meta name="twitter:url" content="https://www.layershop.kr/BusinessGuide/intro" />
+      {/* Twitter */}
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="천안아산역이편한세상시티 - 사업안내" />
+      <meta
+        name="twitter:description"
+        content="천안아산역이편한세상시티 사업 개요: 총 396실, 전용 84㎡ 중심 구성, 천안아산역 생활권의 입지 가치와 특화 설계 안내."
+      />
+      <meta name="twitter:image" content="https://www.layershop.kr/img/og/business.jpg" />
+      <meta name="twitter:url" content="https://www.layershop.kr/BusinessGuide/intro" />
 
-        {/* JSON-LD (대표 이미지/브레드크럼 포함) */}
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebPage",
-            "name": "천안아산역이편한세상시티 - 사업안내",
-            "url": "https://www.layershop.kr/BusinessGuide/intro",
-            "description":
-              "충청남도 아산시 배방읍 장재리 일원에 조성되는 천안아산역이편한세상시티의 사업 개요와 위치, 규모, 타입 구성, 프리미엄 단지 설계 정보를 제공합니다.",
-            "primaryImageOfPage": {
-              "@type": "ImageObject",
-              "contentUrl": "https://www.layershop.kr/img/og/business.jpg",
-              "width": 1200,
-              "height": 630
-            },
-            "breadcrumb": {
-              "@type": "BreadcrumbList",
-              "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://www.layershop.kr/" },
-                { "@type": "ListItem", "position": 2, "name": "사업안내", "item": "https://www.layershop.kr/BusinessGuide/intro" }
-              ]
-            }
-          })}
-        </script>
-      </Helmet>
+      {/* JSON-LD (대표 이미지/브레드크럼 포함) */}
+      <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "name": "천안아산역이편한세상시티 - 사업안내",
+          "url": "https://www.layershop.kr/BusinessGuide/intro",
+          "description":
+            "충청남도 아산시 배방읍 장재리 일원에 조성되는 천안아산역이편한세상시티의 사업 개요와 위치, 규모, 타입 구성, 특화 설계 정보를 제공합니다.",
+          "primaryImageOfPage": {
+            "@type": "ImageObject",
+            "contentUrl": "https://www.layershop.kr/img/og/business.jpg",
+            "width": 1200,
+            "height": 630
+          },
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://www.layershop.kr/" },
+              { "@type": "ListItem", "position": 2, "name": "사업안내", "item": "https://www.layershop.kr/BusinessGuide/intro" }
+            ]
+          }
+        })}
+      </script>
+    </Helmet>
 
-      <Header isChanged={isScroll} />
-      <FixIcon />
+    <Header isChanged={isScroll} />
+    <FixIcon />
 
-      <Bener title="사업개요" />
+    <Bener title="사업개요" />
 
-      <MenuBar contents={menuContents} />
+    <MenuBar contents={menuContents} />
 
-      {/* SEO 최적화 H1 */}
-      <h1 className={styles.screenReaderOnly}>
-        천안아산역이편한세상시티 - 사업안내
-      </h1>
+    {/* SEO 최적화 H1 */}
+    <h1 className={styles.screenReaderOnly}>
+      천안아산역이편한세상시티 - 사업안내
+    </h1>
 
-      <p className={styles.screenReaderOnly}>
-        천안아산역이편한세상시티는 DL이앤씨의 프리미엄 브랜드 이편한세상이 적용된
-        대규모 복합 오피스텔 단지입니다. 이 페이지에서는 초역세권 입지와 건축 규모,
-        전용 84㎡ 중심의 타입 구성, 특화 설계, 상업시설 연계 등 사업의 핵심 정보를 안내합니다.
-      </p>
+    <p className={styles.screenReaderOnly}>
+      천안아산역이편한세상시티는 DL이앤씨 e편한세상 브랜드가 적용된 주거 단지로,
+      총 396실 규모로 조성됩니다. 이 페이지에서는 천안아산역 생활권의 입지 가치와
+      건축 규모, 전용 84㎡ 중심 구성, 특화 설계 등 사업의 핵심 정보를 안내합니다.
+    </p>
 
-      <div className={styles.textBox}>
-        <div>천안아산역 초역세권의 프리미엄 라이프</div>
-        <div>이편한세상이 완성하는 하이엔드 주거 가치</div>
-      </div>
+    <div className={styles.textBox}>
+      <div>천안아산역 생활권, 프리미엄 주거 가치</div>
+      <div>e편한세상이 제안하는 새로운 라이프</div>
+    </div>
 
 
 

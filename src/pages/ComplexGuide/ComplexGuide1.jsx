@@ -55,7 +55,7 @@ const ComplexGuide1 = () => {
       <title>천안아산역이편한세상시티 - 단지배치도</title>
       <meta
         name="description"
-        content="천안아산역이편한세상시티 단지배치도를 통해 각 동의 위치, 커뮤니티시설, 조경구역, 주차장 및 보행 동선을 확인하세요. 입주민 편의를 고려한 스마트 단지 설계를 소개합니다."
+        content="천안아산역이편한세상시티 단지배치도를 통해 동별 위치, 커뮤니티시설, 조경 구역, 주차장 및 보행 동선을 확인하세요. 입주민 편의를 고려한 단지 구성 정보를 안내합니다."
       />
       <meta name="robots" content="index,follow" />
       <link rel="canonical" href="https://www.layershop.kr/ComplexGuide/intro" />
@@ -66,7 +66,7 @@ const ComplexGuide1 = () => {
       <meta property="og:title" content="천안아산역이편한세상시티 - 단지배치도" />
       <meta
         property="og:description"
-        content="천안아산역이편한세상시티 단지배치도: 동별 배치, 조경, 커뮤니티시설, 주차장과 보행자 동선을 한눈에 확인해보세요."
+        content="천안아산역이편한세상시티 단지배치도. 동별 배치, 커뮤니티시설, 조경, 주차 및 보행 동선을 한눈에 확인하세요."
       />
       <meta property="og:url" content="https://www.layershop.kr/ComplexGuide/intro" />
       <meta property="og:image" content="https://www.layershop.kr/img/og/complex.jpg" />
@@ -79,7 +79,7 @@ const ComplexGuide1 = () => {
       <meta name="twitter:title" content="천안아산역이편한세상시티 - 단지배치도" />
       <meta
         name="twitter:description"
-        content="천안아산역이편한세상시티의 단지배치도를 통해 조경, 커뮤니티, 주차, 보행 동선까지 입주자 중심의 설계를 확인해보세요."
+        content="천안아산역이편한세상시티 단지배치도로 조경, 커뮤니티, 주차, 보행 동선 등 단지 구성 정보를 확인하세요."
       />
       <meta name="twitter:image" content="https://www.layershop.kr/img/og/complex.jpg" />
       <meta name="twitter:url" content="https://www.layershop.kr/ComplexGuide/intro" />
@@ -92,7 +92,7 @@ const ComplexGuide1 = () => {
           "name": "천안아산역이편한세상시티 - 단지배치도",
           "url": "https://www.layershop.kr/ComplexGuide/intro",
           "description":
-            "천안아산역이편한세상시티 단지배치도: 동별 위치, 커뮤니티 시설, 조경, 주차장 및 보행자 동선을 포함한 단지 설계 정보를 제공합니다.",
+            "천안아산역이편한세상시티 단지배치도: 동별 위치, 커뮤니티 시설, 조경, 주차장 및 보행자 동선을 포함한 단지 구성 정보를 제공합니다.",
           "primaryImageOfPage": {
             "@type": "ImageObject",
             "contentUrl": "https://www.layershop.kr/img/og/complex.jpg",
@@ -122,7 +122,7 @@ const ComplexGuide1 = () => {
 
     <Header isChanged={isScroll} />
     <FixIcon />
-    <Bener title="단지안내" />
+    <Bener title="단지배치도" />
     <MenuBar contents={menuContents} />
 
     {/* SEO 최적화 */}
@@ -131,26 +131,21 @@ const ComplexGuide1 = () => {
     </h1>
     <p className={styles.screenReaderOnly}>
       이 페이지는 천안아산역이편한세상시티의 단지배치도를 제공합니다.
-      각 동의 위치, 커뮤니티 시설 배치, 조경 및 녹지 설계, 지상·지하 주차장과
-      보행 동선 계획까지 입주자의 편의를 고려한 스마트 단지 구성 정보를
-      시각적으로 안내합니다.
+      동별 위치와 커뮤니티시설 배치, 조경 및 녹지 계획, 주차장과 보행 동선 등
+      단지 구성 정보를 시각적으로 확인하실 수 있습니다.
     </p>
 
     <div className={styles.textBox}>
-      <div>천안아산역 초역세권의 중심에</div>
-      <div>스마트하게 설계된 프리미엄 단지를 만나보세요</div>
+      <div>천안아산역 생활권, 단지 구성을 한눈에</div>
+      <div>동별 배치와 주요 시설 위치를 확인하세요</div>
     </div>
 
     <img
       className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
       src={page1}
-      alt="천안아산역이편한세상시티 단지배치도"
+      alt="천안아산역이편한세상시티 단지 배치도"
+      onLoad={handleImageLoad}
     />
-
-
-
-			
-
 
 
 			<div className={styles.commonBox}>

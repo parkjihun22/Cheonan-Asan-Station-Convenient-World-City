@@ -65,7 +65,7 @@ const Interior1 = () => {
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
 
       <div className={styles.textBox}>
-      <div>청주 도심의 새로운 하이엔드 기준</div>
+      <div>천안아산 도심의 새로운 하이엔드 기준</div>
       <div>천안아산역이편한세상시티가 자부심으로 완성됩니다.</div>
     </div>
 

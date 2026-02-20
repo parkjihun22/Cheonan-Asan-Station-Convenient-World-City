@@ -16,14 +16,14 @@ import page1 from "../../assets/FloorPlan/FloorPlan5/unit_84b.jpg"
 
 const FloorPlan5 = () => {
 	const menuContents = [
-		{ title: "59A", url: "/FloorPlan/59A" },
-		{ title: "59B", url: "/FloorPlan/59B" },
-		{ title: "74", url: "/FloorPlan/84A" },
-		{ title: "84A", url: "/FloorPlan/84B" },
-		{ title: "84B", url: "/FloorPlan/114A" },
-    { title: "114", url: "/FloorPlan/114B" },
+		{ title: "84A", url: "/FloorPlan/59A" },
+		{ title: "84B", url: "/FloorPlan/59B" },
+		{ title: "84C", url: "/FloorPlan/84A" },
+		{ title: "84D", url: "/FloorPlan/84B" },
+		// { title: "84B", url: "/FloorPlan/114A" },
+    // { title: "114", url: "/FloorPlan/114B" },
 		// { title: "세대안내영상", url: "/FloorPlan/videos" }, // 세대안내영상 링크
-		{ title: "E-모델하우스", url: "/FloorPlan/Emodel" },
+		// { title: "E-모델하우스", url: "/FloorPlan/Emodel" },
 	];
 
 
@@ -67,7 +67,7 @@ const FloorPlan5 = () => {
 			<MenuBar contents={menuContents} />
 
 			<div className={styles.textBox}>
-			<div>청주 도심의 새로운 하이엔드 기준</div>
+			<div>천안아산 도심의 새로운 하이엔드 기준</div>
 			<div>천안아산역이편한세상시티가 자부심으로 완성됩니다.</div>
 			</div>
 

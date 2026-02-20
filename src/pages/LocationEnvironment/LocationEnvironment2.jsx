@@ -49,7 +49,7 @@ const LocationEnvironment1 = () => {
       <title>천안아산역이편한세상시티 - 프리미엄</title>
       <meta
         name="description"
-        content="천안아산역이편한세상시티 프리미엄을 확인하세요. 총 1,618세대 하이엔드 브랜드 대단지, 청주 원도심 핵심 입지, 생활 인프라와 녹지 환경, 차별화된 커뮤니티로 완성되는 주거 가치를 안내합니다."
+        content="천안아산역이편한세상시티 프리미엄을 확인하세요. 천안아산역 생활권의 교통 접근성, 풍부한 생활 인프라, 쾌적한 주거 환경과 커뮤니티로 완성되는 주거 가치를 안내합니다."
       />
       <link rel="canonical" href="https://www.layershop.kr/LocationEnvironment/primium" />
       <meta name="robots" content="index,follow" />
@@ -60,7 +60,7 @@ const LocationEnvironment1 = () => {
       <meta property="og:title" content="천안아산역이편한세상시티 - 프리미엄" />
       <meta
         property="og:description"
-        content="총 1,618세대 하이엔드 대단지, 청주 원도심 입지와 생활 인프라·녹지·커뮤니티로 완성되는 천안아산역이편한세상시티 프리미엄."
+        content="천안아산역이편한세상시티 프리미엄. 교통 접근성과 생활 인프라, 쾌적한 주거 환경과 커뮤니티로 완성되는 입지 가치를 확인하세요."
       />
       <meta property="og:url" content="https://www.layershop.kr/LocationEnvironment/primium" />
       <meta property="og:image" content="https://www.layershop.kr/img/og/premium.jpg" />
@@ -72,7 +72,7 @@ const LocationEnvironment1 = () => {
       <meta name="twitter:title" content="천안아산역이편한세상시티 - 프리미엄" />
       <meta
         name="twitter:description"
-        content="하이엔드 브랜드 대단지 프리미엄. 청주 원도심 핵심 입지, 생활 인프라와 녹지, 커뮤니티 특화로 완성되는 천안아산역이편한세상시티."
+        content="천안아산역 생활권의 교통 접근성과 생활 인프라, 쾌적한 주거 환경과 커뮤니티로 완성되는 천안아산역이편한세상시티의 프리미엄을 확인하세요."
       />
       <meta name="twitter:image" content="https://www.layershop.kr/img/og/premium.jpg" />
       <meta name="twitter:url" content="https://www.layershop.kr/LocationEnvironment/primium" />
@@ -85,7 +85,7 @@ const LocationEnvironment1 = () => {
           "name": "천안아산역이편한세상시티 - 프리미엄",
           "url": "https://www.layershop.kr/LocationEnvironment/primium",
           "description":
-            "천안아산역이편한세상시티 프리미엄: 1,618세대 하이엔드 브랜드 대단지. 청주 원도심 입지와 생활 인프라, 녹지 환경, 커뮤니티 특화로 완성되는 주거 가치.",
+            "천안아산역이편한세상시티 프리미엄: 천안아산역 생활권의 교통 접근성과 생활 인프라, 쾌적한 주거 환경과 커뮤니티로 완성되는 주거 가치를 안내합니다.",
           "primaryImageOfPage": {
             "@type": "ImageObject",
             "contentUrl": "https://www.layershop.kr/img/og/premium.jpg",
@@ -123,16 +123,15 @@ const LocationEnvironment1 = () => {
       천안아산역이편한세상시티 - 프리미엄
     </h1>
     <p className={styles.screenReaderOnly}>
-      천안아산역이편한세상시티만의 프리미엄을 만나보세요.
-      하이엔드 브랜드에 걸맞은 대단지 스케일과 설계,
-      청주 원도심의 중심 입지, 생활 인프라, 자연과 커뮤니티를 모두 갖춘
-      차별화된 주거 가치를 경험하실 수 있습니다.
+      이 페이지는 천안아산역이편한세상시티의 프리미엄 포인트를 안내합니다.
+      천안아산역 생활권의 교통 접근성, 생활 인프라, 주거 환경과 커뮤니티 등
+      일상 만족도를 높이는 주요 가치를 한눈에 확인하실 수 있습니다.
     </p>
 
     <div className={styles.textBox}>
-      <div>프리미엄은 스펙이 아닌, 삶의 기준입니다</div>
-      <div>청주 원도심의 중심, 1,618세대 하이엔드 대단지</div>
-      <div>천안아산역이편한세상시티에서 완성되는 진짜 프리미엄</div>
+      <div>일상을 완성하는 프리미엄 포인트</div>
+      <div>천안아산역 생활권의 가치를 확인하세요</div>
+      <div>천안아산역이편한세상시티의 기준을 만나보세요</div>
     </div>
 
     <img

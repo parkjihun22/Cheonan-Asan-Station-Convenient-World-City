@@ -18,25 +18,25 @@ const menuArray = [
     title: "브랜드소개",
     subMenu: [
       { subTitle: "브랜드 소개", subUrl: "/Brand/intro" },
-      { subTitle: "홍보 영상", subUrl: "/Brand/video" },
+      // { subTitle: "홍보 영상", subUrl: "/Brand/video" },
     ],
   },
   {
     title: "사업개요",
     subMenu: [
       { subTitle: "사업안내", subUrl: "/BusinessGuide/intro" },
-      { subTitle: "분양일정", subUrl: "/BusinessGuide/plan" },
+      // { subTitle: "분양일정", subUrl: "/BusinessGuide/plan" },
     ],
   },
-  {
-    title: "분양안내",
-    subMenu: [
-      // { subTitle: "청약방법안내", subUrl: "/SalesInfo/SubscriptionGuide" },
-      { subTitle: "공급안내", subUrl: "/SalesInfo/guide" },
-      { subTitle: "모집공고안내", subUrl: "/SalesInfo/announcement" },
-      { subTitle: "인지세납부안내", subUrl: "/SalesInfo/stampTax" },
-    ],
-  },
+  // {
+  //   title: "분양안내",
+  //   subMenu: [
+  //     // { subTitle: "청약방법안내", subUrl: "/SalesInfo/SubscriptionGuide" },
+  //     { subTitle: "공급안내", subUrl: "/SalesInfo/guide" },
+  //     { subTitle: "모집공고안내", subUrl: "/SalesInfo/announcement" },
+  //     { subTitle: "인지세납부안내", subUrl: "/SalesInfo/stampTax" },
+  //   ],
+  // },
   {
     title: "입지환경",
     subMenu: [
@@ -55,13 +55,13 @@ const menuArray = [
   {
     title: "세대안내",
     subMenu: [
-      { subTitle: "59A", subUrl: "/FloorPlan/59A" },
-      { subTitle: "59B", subUrl: "/FloorPlan/59B" },
-      { subTitle: "74", subUrl: "/FloorPlan/84A" },
-      { subTitle: "84A", subUrl: "/FloorPlan/84B" },
-      { subTitle: "84B", subUrl: "/FloorPlan/114A" },
-      { subTitle: "114", subUrl: "/FloorPlan/114B" },
-      { subTitle: "E-모델하우스", subUrl: "/FloorPlan/Emodel" },
+      { subTitle: "84A", subUrl: "/FloorPlan/59A" },
+      { subTitle: "84B", subUrl: "/FloorPlan/59B" },
+      { subTitle: "84C", subUrl: "/FloorPlan/84A" },
+      { subTitle: "84D", subUrl: "/FloorPlan/84B" },
+      // { subTitle: "84B", subUrl: "/FloorPlan/114A" },
+      // { subTitle: "114", subUrl: "/FloorPlan/114B" },
+      // { subTitle: "E-모델하우스", subUrl: "/FloorPlan/Emodel" },
     ],
   },
   // {
@@ -109,9 +109,9 @@ export default function Header() {
         <div className={styles.mobileHeader}>
           <div onClick={() => setIsMobileMenu((v) => !v)}>
             {!isMobileMenu ? (
-              <AiOutlineMenu className={styles.icon} size={25} color="#020c39" />
+              <AiOutlineMenu className={styles.icon} size={25} color="#eb662d" />
             ) : (
-              <IoCloseSharp className={styles.icon} size={25} color="#020c39" />
+              <IoCloseSharp className={styles.icon} size={25} color="#eb662d" />
             )}
           </div>
           {isMobileMenu && (
@@ -125,7 +125,7 @@ export default function Header() {
             <img src={mainlogowhite} alt="Logo" className={styles.logo} />
           </Link>
           <a href="tel:1533-8848">
-            <IoCall className={styles.icon} size={25} color="#020c39" />
+            <IoCall className={styles.icon} size={25} color="#eb662d" />
           </a>
         </div>
         {isInterestPopupOpen && (

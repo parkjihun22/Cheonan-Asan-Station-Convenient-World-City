@@ -45,33 +45,33 @@ const Brand2 = () => {
 	return (
 		<div className={styles.container}>
 			<Helmet>
-			<title>천안아산역이편한세상시티 - 홍보영상</title>
-			<meta
-				name="description"
-				content="천안아산역이편한세상시티 홍보영상으로 단지 설계, 세대 구성, 프리미엄 커뮤니티, 천안·아산 생활 인프라와 초역세권 교통 환경을 생생하게 확인하세요."
-			/>
-			<link rel="canonical" href="https://www.layershop.kr/Brand/video" />
-			<meta name="robots" content="index,follow" />
+				<title>천안아산역이편한세상시티 - 홍보영상</title>
+				<meta
+					name="description"
+					content="천안아산역이편한세상시티 홍보영상으로 브랜드 가치와 단지 설계, 생활 인프라, 천안아산역 중심 입지의 프리미엄 라이프를 확인해보세요."
+				/>
+				<link rel="canonical" href="https://www.layershop.kr/Brand/video" />
+				<meta name="robots" content="index,follow" />
 
-			{/* OG 태그 */}
-			<meta property="og:type" content="website" />
-			<meta property="og:site_name" content="천안아산역이편한세상시티" />
-			<meta property="og:title" content="천안아산역이편한세상시티 - 홍보영상" />
-			<meta
-				property="og:description"
-				content="천안아산역이편한세상시티 홍보영상: 프리미엄 설계와 커뮤니티, 풍부한 생활 인프라와 천안아산역 초역세권 입지를 영상으로 만나보세요."
-			/>
-			<meta property="og:url" content="https://www.layershop.kr/Brand/video" />
-			<meta property="og:image" content="https://www.layershop.kr/images/og/main.jpg" />
+				{/* OG 태그 */}
+				<meta property="og:type" content="website" />
+				<meta property="og:site_name" content="천안아산역이편한세상시티" />
+				<meta property="og:title" content="천안아산역이편한세상시티 - 홍보영상" />
+				<meta
+					property="og:description"
+					content="천안아산역이편한세상시티 홍보영상. e편한세상 브랜드 가치와 주거 공간 설계, 천안아산역 중심 생활 프리미엄을 영상으로 확인하세요."
+				/>
+				<meta property="og:url" content="https://www.layershop.kr/Brand/video" />
+				<meta property="og:image" content="https://www.layershop.kr/images/og/main.jpg" />
 
-			{/* Twitter */}
-			<meta name="twitter:card" content="summary_large_image" />
-			<meta name="twitter:title" content="천안아산역이편한세상시티 - 홍보영상" />
-			<meta
-				name="twitter:description"
-				content="프리미엄 단지 설계와 커뮤니티, 천안아산 중심의 생활 인프라와 교통환경을 영상으로 확인하세요."
-			/>
-			<meta name="twitter:image" content="https://www.layershop.kr/images/og/main.jpg" />
+				{/* Twitter */}
+				<meta name="twitter:card" content="summary_large_image" />
+				<meta name="twitter:title" content="천안아산역이편한세상시티 - 홍보영상" />
+				<meta
+					name="twitter:description"
+					content="e편한세상 브랜드 프리미엄과 천안아산역 생활권의 가치를 홍보영상으로 만나보세요."
+				/>
+				<meta name="twitter:image" content="https://www.layershop.kr/images/og/main.jpg" />
 			</Helmet>
 
 			<Header isChanged={isScroll} />
@@ -87,15 +87,15 @@ const Brand2 = () => {
 			</h1>
 
 			<p className={styles.screenReaderOnly}>
-			천안아산역이편한세상시티의 홍보영상을 통해 프리미엄 단지 설계와
-			세대 구성, 커뮤니티 공간과 스마트 라이프스타일을 확인하세요.
-			천안아산역 초역세권 입지와 풍부한 생활 인프라까지, 완성도 높은
-			주거 가치를 영상으로 만나보실 수 있습니다.
+			천안아산역이편한세상시티 홍보영상을 통해 브랜드 철학과
+			단지 설계, 입주민 중심의 공간 구성과 생활 편의성을 확인하실 수 있습니다.
+			총 396실 규모로 조성되는 주거 공간과 천안아산역 생활권의
+			프리미엄 라이프를 영상으로 만나보세요.
 			</p>
 
 			<div className={`${styles.textBox} ${isTextVisible ? styles.active : ''}`}>
-			<div>천안아산역, 하이엔드 라이프의 출발점</div>
-			<div>천안아산역이편한세상시티를 영상으로 만나보세요</div>
+			<div>천안아산역 생활권, 브랜드 프리미엄을 영상으로</div>
+			<div>천안아산역이편한세상시티의 가치를 직접 확인하세요</div>
 			</div>
 
 

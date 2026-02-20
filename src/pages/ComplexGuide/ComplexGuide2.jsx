@@ -55,7 +55,7 @@ const ComplexGuide1 = () => {
       <title>천안아산역이편한세상시티 - 동·호수 배치</title>
       <meta
         name="description"
-        content="천안아산역이편한세상시티 동·호수 배치도를 통해 세대별 위치, 조망, 일조 방향, 라인 및 스택 구성, 코어 동선까지 확인해보세요. 효율적인 동선과 프라이버시까지 고려한 설계 안내."
+        content="천안아산역이편한세상시티 동·호수 배치도를 통해 세대별 위치, 조망·일조 방향, 라인 및 스택 구성, 코어 동선 정보를 확인하세요. 효율적인 동선과 프라이버시를 고려한 배치 계획을 안내합니다."
       />
       <link rel="canonical" href="https://www.layershop.kr/ComplexGuide/detailintro" />
       <meta name="robots" content="index,follow" />
@@ -66,7 +66,7 @@ const ComplexGuide1 = () => {
       <meta property="og:title" content="천안아산역이편한세상시티 - 동·호수 배치" />
       <meta
         property="og:description"
-        content="천안아산역이편한세상시티 동·호수 배치도: 세대별 위치와 조망, 일조, 프라이버시, 코어(엘리베이터/계단) 동선까지 한눈에 확인하세요."
+        content="천안아산역이편한세상시티 동·호수 배치도. 세대별 위치와 조망·일조, 라인/스택 구성, 코어(엘리베이터·계단) 동선을 한눈에 확인하세요."
       />
       <meta property="og:url" content="https://www.layershop.kr/ComplexGuide/detailintro" />
       <meta property="og:image" content="https://www.layershop.kr/img/og/complex.jpg" />
@@ -77,28 +77,28 @@ const ComplexGuide1 = () => {
       <meta name="twitter:title" content="천안아산역이편한세상시티 - 동·호수 배치" />
       <meta
         name="twitter:description"
-        content="세대별 위치, 조망·일조·프라이버시를 고려한 천안아산역이편한세상시티의 동·호수 배치 설계를 확인해보세요."
+        content="천안아산역이편한세상시티 동·호수 배치로 세대별 위치, 조망·일조, 코어 동선 등 배치 계획을 확인하세요."
       />
       <meta name="twitter:image" content="https://www.layershop.kr/img/og/complex.jpg" />
     </Helmet>
 
     <Header isChanged={isScroll} />
     <FixIcon />
-    <Bener title="단지안내" />
+    <Bener title="동·호수 배치" />
     <MenuBar contents={menuContents} />
 
     <h1 className={styles.screenReaderOnly}>
       천안아산역이편한세상시티 - 동·호수 배치
     </h1>
     <p className={styles.screenReaderOnly}>
-      천안아산역이편한세상시티의 동·호수 배치 정보를 확인할 수 있는 페이지입니다.
-      세대별 위치, 조망 및 일조 방향, 라인 및 스택 구성, 코어(엘리베이터·계단) 동선을 안내하며,
-      입주자의 프라이버시와 효율적인 생활 동선을 고려한 설계를 시각적으로 제공합니다.
+      이 페이지는 천안아산역이편한세상시티의 동·호수 배치 정보를 제공합니다.
+      세대별 위치와 라인·스택 구성, 조망 및 일조 방향, 코어(엘리베이터·계단) 동선 등
+      배치 계획을 시각적으로 확인하실 수 있습니다.
     </p>
 
     <div className={styles.textBox}>
-      <div>천안아산역 중심에서 누리는 정돈된 공간 배치</div>
-      <div>이편한세상만의 동·호수 설계를 확인해보세요</div>
+      <div>세대 배치를 한눈에 확인</div>
+      <div>라인·스택과 주요 동선을 확인하세요</div>
     </div>
 
     <img
