@@ -586,10 +586,11 @@ const Main = () => {
             <div className={styles.overlay}></div>
             <div className={styles.mainImageTextBox1}>
             <div className={styles.mainImageTextSub1}>
-              천안의 새로운 시작, 높은 미래가치<br/>
-              브랜드 신뢰 이편한세상
+              지역의 사제, 대표도시 천안아산역<br/>
+              계약금 5%로 입주까지
               <br />
-              <span className={styles.greyText1}>브랜드 프리미엄</span>
+              7,200만원 잔금유예, 분양가 안심보장제<br />
+              <span className={styles.greyText1}>특급 펜타역세권 프리미엄</span>
               <br />
             </div>
             <div className={styles.mainImageTitleBox1}>
