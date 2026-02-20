@@ -124,7 +124,7 @@ export default function Header() {
           <Link to="/">
             <img src={mainlogowhite} alt="Logo" className={styles.logo} />
           </Link>
-          <a href="tel:1533-8848">
+          <a href="tel:1668-0084">
             <IoCall className={styles.icon} size={25} color="#eb662d" />
           </a>
         </div>
@@ -190,7 +190,7 @@ export default function Header() {
           type="button"
           style={{ background: "none", border: "none", cursor: "pointer" }}
         >
-          <IoCall size={20} /> 1533-8848
+          <IoCall size={20} /> 1668-0084
         </button>
       </header>
 
