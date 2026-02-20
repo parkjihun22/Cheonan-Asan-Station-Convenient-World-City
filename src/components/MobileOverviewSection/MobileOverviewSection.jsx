@@ -28,11 +28,11 @@ const items = [
       </li>
       <li>
         <strong>대지위치</strong>
-        <span>충청남도 아산시 배방읍 장재리 일원</span>
+        <span>충청남도 아산시 배방읍 장재리 1749</span>
       </li>
       <li>
         <strong>건축규모</strong>
-        <span>지하 6층 ~ 지상 29층, 총 3개동</span>
+        <span>지하 6층 ~ 지상 46층, 총 2개동</span>
       </li>
       <li>
         <strong>주택형</strong>

@@ -16,13 +16,13 @@ import { Helmet } from "react-helmet-async";
 
 const projectData = [
   { label: '사업명', value: '천안아산역이편한세상시티' },
-  { label: '사업위치', value: '충청남도 아산시 배방읍 장재리 176-5번지 외' },
+  { label: '사업위치', value: '충청남도 아산시 배방읍 장재리 1749번지' },
   { label: '대지면적', value: '6,847.00㎡' },
   { label: '건축면적', value: '3,930.79㎡' },
   { label: '연면적', value: '74,068.48㎡' },
   { label: '용적률', value: '599.79%' },
-  { label: '건축규모', value: '지하 6층 ~ 지상 29층, 3개동' },
-  { label: '세대수', value: '총 1,329실 (오피스텔)' },
+  { label: '건축규모', value: '지하 6층 ~ 지상 46층, 2개동' },
+  { label: '세대수', value: '총 396실 (오피스텔)' },
 ];
 
   
