@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styles from "./InterestPopup.module.scss";
-import bannerImage from "../../assets/Popup/banner.jpg";
+import bannerImage from "../../assets/Popup/banner.gif";
 
 const InterestPopup = ({ onClose, registration, handleInputChange }) => {
   const [isSubmitting, setIsSubmitting] = useState(false);
