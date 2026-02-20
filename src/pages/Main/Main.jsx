@@ -586,7 +586,7 @@ const Main = () => {
             <div className={styles.overlay}></div>
             <div className={styles.mainImageTextBox1}>
             <div className={styles.mainImageTextSub1}>
-              지역의 사제, 대표도시 천안아산역<br/>
+              지역 의사제, 최대 수혜지역<br/>
               계약금 5%로 입주까지
               <br />
               7,200만원 잔금유예 중도금 무이자<br /> 분양가 안심보장제<br />
